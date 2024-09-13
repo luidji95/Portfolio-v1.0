@@ -101,3 +101,126 @@ body{
     
 
 }
+.stuff-done-header{
+    background-color: #f8dfae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #853304;
+    font-size:20px;
+    border-top-left-radius: 12px;
+    color: #b64809;
+    
+}
+
+.file-edit-object{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 80px;
+    
+}
+.desin-cc{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10px;
+}
+.cyrcles{
+    display: flex;
+    gap:5px;
+   
+}
+.cyrcle{
+    height: 16px;
+    width: 16px;
+    border-radius: 9999px;
+    background-color: #fcf6e8;
+    border: 3px solid #853304;
+ 
+}
+.staff-done-content{
+    padding: 15px 35px 15px 35px;
+    display: flex;
+    flex-direction: column;
+    color: #b64809;
+}
+.donestuff{
+    color: #853304;
+}
+.avatar{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.about-me{
+    max-width: 500px;
+    background-color: #fcf6e8;
+    display: flex;
+    flex-direction: column;
+    border-right: 8px solid #853304;
+    border-bottom: 8px solid #853304;
+    border-left: 4px solid #853304;
+    border-top: 4px solid #853304;
+    border-radius: 15px;
+    
+    position: absolute;
+    left: -80px;
+    top: -30px;
+    font-size: 20px;
+    color: #853304;
+    
+    
+}
+.about-me-header{
+    background-color: #e8a66d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #853304;
+    gap: 7px;
+    padding : 0px 15px 0px 15px;
+    border-top-left-radius: 12px;
+
+}
+.about{
+    color : #853304;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    background-color: #fcf6e8;
+    border: 3px solid #853304;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lowercase{
+    background-color: #fcf6e8;
+    border: 3px solid #853304;
+    padding: 7px 20px 7px 20px;
+    flex-grow: 1;
+    border-radius: 7px;
+    text-transform: lowercase;
+}
+.about-me-content{
+    padding: 20px 40px 20px 40px;
+    /* display: flex;
+    flex-direction: column; */
+    color: #b64809;
+
+    
+}
+
+.introduction{
+    cursor: default;
+}
+.about-me-btn{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
