@@ -224,3 +224,195 @@ body{
     padding-top: 15px;
     padding-bottom: 10px;
 }
+.button1{
+    background-color: #fcf6e8;
+    color: #853304;
+    text-decoration: none;
+    border: 5px solid #853304; 
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+}
+.button2{
+    background-color: #853304;
+    color: #f8dfae;
+    text-decoration: none;
+    border: 5px solid #853304; 
+    border-radius: 7px;
+    padding: 5px;
+}
+.button1:hover{
+    background-color: #f8dfae;
+}
+.button2:hover{
+    background-color: #f8dfae;
+    color: #853304;
+}
+
+
+.links{
+    background-color: #fcf6e8;
+    max-width: 500px;
+    position:absolute;
+    top:450px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    border-right: 8px solid #853304;
+    border-bottom: 8px solid #853304;
+    border-left: 4px solid #853304;
+    border-top: 4px solid #853304;
+    border-radius: 15px;
+}
+.link-header{
+    background-color: #f8dfae;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #853304;
+    padding : 0px 15px 0px 15px;
+    border-top-left-radius: 12px;
+    
+}
+.links-content{
+    padding : 20px 40px 20px 40px;
+    font-size: 20px;
+    color: #b64809;
+   
+}
+
+.link{
+    color : #b64809;
+    font-size:20px;
+    flex-grow: 1;
+    padding-left: 27%;
+}
+.elswhere{
+    
+    color: #853304;
+}
+.social-media-icons{
+    display: flex;
+    gap: 10px;
+    padding-top: 25px;
+}
+.img-media:hover{
+
+    transform: rotate(360deg);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+}
+.previous-version{
+    max-width: 400px;
+    border-right: 8px solid #204476;
+    border-bottom: 8px solid #204476;
+    border-left: 4px solid #204476;
+    border-top: 4px solid #204476;
+    color: #204476;
+    border-radius: 15px;
+    position:absolute;
+    right: -7%;
+    top: 84%;
+    transform: translateY(100%);
+    /* Ukloni animacijski kod */
+    /* animation: slideInFromBottom 0.5s ease forwards; */
+    transition: transform 0.5s ease;
+    
+    
+    
+
+}
+.previous-version-header{
+    background-color: rgba(20, 91, 245, 0.4); 
+    background-image: url(img/bluprint.svg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #204476;
+    padding : 10px 15px 10px 15px;
+}
+.previous-version-content{
+    background-color: #fcf6e8;
+    padding: 20px 40px 20px 40px;
+    font-size: 20px;
+}
+.old-portfolio{
+    background-color: #204476;
+    color: white;
+    text-decoration: none;
+    border: 5px solid #204476;
+    border-radius: 7px;
+    padding: 7px 15px 7px 15px;
+    
+}
+.parg{
+    padding-bottom: 20px;
+}
+.cyrclesblue{
+    display: flex;
+    gap:5px;
+   
+}
+.cyrcleblue{
+    height: 16px;
+    width: 16px;
+    border-radius: 9999px;
+    background-color: #fcf6e8;
+    border: 3px solid #204476;
+ 
+}
+
+.office-hours-section{
+   /* height: 100px;
+   width: 100px; */
+   border: 5px solid #853304;
+   position:absolute;
+   right: -92%;
+   top: 110%;
+   padding: 20px;
+   border-radius: 20px;
+   background-color: #fcf6e8;
+   font-size: 20px;
+   padding: 20px;
+
+
+   transform: translateX(0%);
+   animation: slideInFromRight 0.5s ease;
+
+
+ 
+}
+.office-hours{
+    color: #853304;
+}
+.want-to-chat{
+    color: #b64809;
+}
+.calendly-faq{
+    padding-top: 20px;
+}
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+.animate-slide {
+    animation: slideInFromBottom 0.5s ease forwards;
+}
+.animate-slide-right{
+    animation: slideinFromRight 05s ease  forwards;
+}
+
+
+
